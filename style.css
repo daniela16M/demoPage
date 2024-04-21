@@ -302,14 +302,17 @@ h2{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #2EA1FF;
+        background-color: #E07D45;
         display: none;
     }
 
-    .menu .navbar ul li a:hover{
-        color: #001739;
+    .menu .navbar ul li a{
+        color: #FFFFFF;
     }
 
+    .menu .navbar ul li a:hover{
+        color: #f5d9c1;
+    }
     .menu .navbar ul li{
         width: 100%;
     }
