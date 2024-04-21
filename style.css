@@ -22,16 +22,6 @@ img{
     margin: 0 auto;
 }
 
-.header{
-    background-image: url(images/portada.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    min-height: 80vh;
-    padding: 80px 0 0 0;
-}
 
 .menu{
     position: absolute;
@@ -46,12 +36,15 @@ img{
     display: flex;
 }
 
-
 .logo{
     color: #F6BC8C;
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.menu .logo{
+    padding-left: 50px;
 }
 
 .menu .navbar ul li{
@@ -62,9 +55,11 @@ img{
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
+    padding-right: 60px;
     color: #E07D45;
     display: block;
     font-weight: 600;
+
 }
 
 .menu .navbar ul li a:hover{
@@ -84,12 +79,23 @@ img{
     display: none;
 }
 
-.header-txt{
+.section1{
+    background-image: url(images/portada.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0 0 0;
+}
+
+.section1-txt{
     width: 50%;
     padding-right: 75px;
 }
 
-.header-txt h1{
+.section1-txt h1{
     color: #FFFFFF;
     font-size: 45px;
     line-height: 1;
@@ -293,6 +299,10 @@ h2{
         padding: 20px;
     }
 
+    .menu .logo{
+        padding-left: 10px;
+    }
+    
     .menu label{
         display: initial;
     }
@@ -313,6 +323,7 @@ h2{
     .menu .navbar ul li a:hover{
         color: #f5d9c1;
     }
+
     .menu .navbar ul li{
         width: 100%;
     }
@@ -321,13 +332,13 @@ h2{
         display: initial;
     }
 
-    .header{
+    .section1{
         background-position: left;
         min-height: 0vh;
         padding: 100px 30px;
     }
 
-    .header-txt{
+    .section1-txt{
         width: 100%;
         text-align: center;
         padding: 0;
@@ -393,4 +404,6 @@ h2{
         margin-top: 50px;
     }
 }
+
+
 
