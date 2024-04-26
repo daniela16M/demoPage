@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DemoPage</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#services">Servicios</a></li>
                     <li><a href="#gallery">Nosotros</a></li>
-                    <li><a href="#map">Contacto</a></li>
+                    <li><a href="#about ">Contacto</a></li>
                 </ul>
             </nav>
     </header>
@@ -31,21 +31,6 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, dolore nemo assumenda dolorem aliquam nulla non culpa fugit tempore distinctio quos dignissimos praesentium dolor. A quis dolores quibusdam unde excepturi.
                 </p>
             </div>
-        </div>
-    </section>
-
-    <section class="about container">
-        <div class="about-img">
-            <img src="images/img1.jpg" alt="">
-            <img src="images/img2.jpg" alt="">
-        </div>
-
-        <div class="about-txt">
-            <h2>Un <span>arquitecto</span> es un <span>dibujante</span> de sueños</h2>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore temporibus dolorem veritatis voluptatibus placeat perferendis beatae quibusdam, expedita voluptatum odio amet asperiores corrupti quasi, aliquid omnis alias, suscipit cum. Sapiente.
-            </p>
-            <a href="#" class="btn-1">Contáctanos</a>
         </div>
     </section>
 
@@ -90,7 +75,7 @@
 
         </div>
     </main>
-
+    
     <!-- <section class="information">
 
         <div class="information-content container">
@@ -147,6 +132,45 @@
             </div>
         </div>
     </section>
+
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img src="images/img1.jpg" alt="">
+            <img src="images/img2.jpg" alt="">
+        </div>
+
+        <div class="about-txt">
+            <h2>Un <span>arquitecto</span> es un <span>dibujante</span> de sueños</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore temporibus dolorem veritatis voluptatibus placeat perferendis beatae quibusdam, expedita voluptatum odio amet asperiores corrupti quasi, aliquid omnis alias, suscipit cum. Sapiente.
+            </p>
+            <a href="#" id="openModalLink" class="btn-1">Contáctanos</a>
+        </div>
+    </section>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <section class="form" id="form">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name">
+    
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" id="email">
+    
+                    <label for="subject">Asunto</label>
+                    <input type="text" name="subject" id="subject">
+    
+                    <label for="coments">Mensaje</label>
+                    <textarea name="coments" id="coments" cols="30" rows="10"></textarea>
+    
+                    <input class="btn" type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </div>
 
     <section class="map" id="map">
         <div class="map-container">
